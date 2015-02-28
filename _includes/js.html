@@ -8,10 +8,17 @@
     <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/least.min.js" | prepend: site.baseurl }}"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script>
+    <script src="//vjs.zencdn.net/4.12/video.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+    <script>
+      $(document).ready(function(){
+        $('.least-gallery').least();
+      });
+    </script>

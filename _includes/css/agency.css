@@ -639,6 +639,12 @@ section h3.section-subheading {
     border: 7px solid #fff;
 }
 
+.castle img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+    max-height: 400px;
+}
+
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
@@ -861,4 +867,24 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+.video_player #video-proposition{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transport p.text-muted{
+  font-size: 16px;
+}
+
+.transport ul{
+ list-style-type: none; 
+}
+
+.transport .timeline-heading h4{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
